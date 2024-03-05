@@ -15,11 +15,3 @@ getPromise()
 });
 
 export { };
-
-function handleEvent(event: string, handler: ???): void { 
-  // function implementation 
-} 
-  handleEvent("click", () => { console.log("Clicked!") });
-  handleEvent("mouseover", (x: number, y: number) => {
-    console.log(`Mouse at ${x}, ${y}`);
-  });
